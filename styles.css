@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    padding-top: 1rem;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #eee;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main {
+    background-color: #eee;
+}
+
+figure {
+    background-color: white;
+    margin: 0 1.5%;
+    padding: 1rem;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+section {
+    padding: 1rem 20%;
+}
+
+li {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: nowrap; 
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+    background-color: #eee;
+}
+
+footer .footer-icon {
+    width: 1.5rem; 
+    height: auto;
+    margin-left: 0.5rem;
+}
+
+footer a {
+    display: inline-block;
+}
+
+/* Medios de consulta */
+
+@media (max-width: 768px) {
+    section {
+        padding: 1rem 10%;
+    }
+
+    footer {
+        flex-direction: row; 
+        flex-wrap: nowrap;
+    }
+
+    footer .footer-icon {
+        width: 1.2rem; 
+        margin-left: 0.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 1.1rem;
+    }
+    
+    section {
+        padding: 1rem 15%;
+    }
+    
+    figure {
+        margin: 0 10%;
+    }
+    
+    footer {
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+        padding: 0.5rem;
+    }
+    
+    
+    footer .footer-icon {
+        width: 1rem; 
+        margin-left: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 1rem; 
+    }
+
+    section {
+        padding: 1rem 5%;
+    }
+
+    figure {
+        margin: 0 5%;
+    }
+
+    footer {
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+        padding: 0.5rem;
+    }
+
+    footer .footer-icon {
+        width: 1rem; 
+        margin-left: 0.5rem;
+    }
+}
+
+
+
+
+
+
